@@ -1,6 +1,3 @@
-def funcsum():
-    print("1")
-
 def func1():
     print("1")
 
