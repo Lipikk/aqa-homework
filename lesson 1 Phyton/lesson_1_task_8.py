@@ -1,6 +1,7 @@
 def func_parametrization(num):
     print(num)
 
+
 func_parametrization ("8")
 func_parametrization ("8")
 func_parametrization ("0")
