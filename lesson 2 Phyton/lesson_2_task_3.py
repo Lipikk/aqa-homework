@@ -9,5 +9,4 @@ def is_year_leap(year):
       print("год + print(year1): False")
 
 is_year_leap(int(input('Введите год: ')))
-
-    
+is_year_leap()
