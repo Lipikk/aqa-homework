@@ -14,5 +14,3 @@ my_age_new = int(my_age)
 print("Ваш обновленный возраст:", my_age_new + 1)
 
 # готово
-
-
