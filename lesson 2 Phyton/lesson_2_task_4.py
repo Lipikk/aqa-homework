@@ -4,6 +4,9 @@
 # - если число делится на 5, печатать `Buzz`;
 # - если число делится на 3 и на 5, печатать `FizzBuzz`
 
+
+n = int(input("Введите число от 1 до n: "))
+
 def fizz_buzz(n):
      for n in range(1, n):
       if (n % 3 == 0) and (n % 5 == 0):
@@ -15,6 +18,6 @@ def fizz_buzz(n):
       else:
          print(n) 
 
-fizz_buzz(int(input("Введите число от 1 до n: ")))
+fizz_buzz(n)
 
 #готово
