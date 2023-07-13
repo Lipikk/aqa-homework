@@ -5,7 +5,11 @@
 #- выведите обновленные переменные на экран
 
 var_1 = 37
-var_2 = 99
+var_2 = temporary_variable
+
+print('var_1 =', var_1)
+print('var_2 =', var_2)
+
 
 var_1_1 = 99
 var_2_2 = 37
