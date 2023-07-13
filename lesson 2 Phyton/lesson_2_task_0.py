@@ -15,4 +15,3 @@ my_age = int(input("my_age"))
 print("Ваш возраст:" + my_age)
 
 
-# 
