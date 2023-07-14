@@ -15,6 +15,6 @@ def month_to_season(month):
 
 month_to_season(month)
 
-# готово
+
 
 

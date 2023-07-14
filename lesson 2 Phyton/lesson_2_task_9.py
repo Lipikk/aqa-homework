@@ -47,4 +47,3 @@ var_2 = var_2_2
 print(var_1)
 print(var_2)
 
-#готово
