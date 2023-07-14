@@ -8,17 +8,17 @@ numbers = list(range(start, end, step))
 print(numbers)
 
 #2 способ создания списка:
-#for numbers in range(18, 0, -4):
-   #print(numbers)
-#готово
+for numbers in range(18, 0, -4):
+   print(numbers)
+
 
 #3 способ:
-#start = 18
-#end = 0
-#step = -4
+start = 18
+end = 0
+step = -4
  
-#for list in range(start, end, step):
-    #print(list, end=' ')
+for list in range(start, end, step):
+    print(list, end=' ')
 
 
 # просто вывести элементы из созданного списка с помощью range:
