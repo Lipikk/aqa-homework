@@ -7,7 +7,7 @@ step = -4
 numbers = list(range(start, end, step))
 print(numbers)
 
-#2 способ создания списка:
+#2 способ:
 for numbers in range(18, 0, -4):
    print(numbers)
 
