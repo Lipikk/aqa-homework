@@ -8,8 +8,14 @@
 
 #2 часть:Сохранить в переменную my_age = my_age + 1, преобразовать значение my_age к типу «число» и перезапустить скрипт
 
-my_age = input("my_age: ")
-print("Ваш возраст:" + my_age)
-my_age_new = int(my_age)
-print("Ваш обновленный возраст:", my_age_new + 1)
+#my_age = input("my_age: ")
+#print("Ваш возраст:" + my_age)
+#my_age_new = int(my_age)
+#print("Ваш обновленный возраст:", my_age_new + 1)
 
+my_age = int(input("my_age: "))
+print(f'my_age:{my_age}')
+my_age = my_age + 1
+print(f'my_age:{my_age}')
+my_age += 1
+print(f'my_age:{my_age}')

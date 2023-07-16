@@ -12,9 +12,9 @@
 #2 способ с помощью функции ceil() из библиотеки math:
 
 import math
-a = math.ceil(float(input('Введите длину стороны квадрата: a= ')))
+a = float(input('Введите длину стороны квадрата: a= '))
 def square(a): 
   S = a * a
-  print("Площадь квадрата: ", S)
+  print("Площадь квадрата: ", math.ceil(S))
 
 square(a)
