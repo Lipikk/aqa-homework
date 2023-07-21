@@ -22,26 +22,3 @@ months = ['Январь', 'Февраль', 'Март', 'Апрель', 'Май'
 
 for i in reversed(months):
     print(i)
-
-#Настало время великих стартов: Tesla улетела на гелиоцентрическую орбиту за Марсом, а вам предстоит отправить ракету с питоном на Сатурн. 
-#Сгенерируйте строку с обратным предстартовым отсчётом. 
-
-countdown_str = ''
-for i in reversed(range(0, 11)):
-    countdown_str = countdown_str + str(i) + ', '
-print(countdown_str + 'поехали!' )
-
-
-for messages_count in range(0, 21):
-        if messages_count == 0:
-        print('У вас нет новых сообщений')
-    if messages_count == 1:
-        print('У вас 1 новое сообщение')
-    elif messages_count == 2:
-        print('У вас 2 новых сообщения')
-    elif messages_count == 3:
-        print('У вас 3 новых сообщения')
-    elif messages_count == 4:
-        print('У вас 4 новых сообщения')
-    else: messages_count >= 5 and messages_count <= 20
-    print('У вас', messages_count, 'новых сообщений')
