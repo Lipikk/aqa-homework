@@ -1,6 +1,9 @@
-class User:
-    first_name = "Ivan"
-    last_name = "Ivanov" 
+# Список объектов
 
-    def __init__(self):
-        print("Я создался")
+class Smartphone():
+
+    def __init__(self, phone_brand, phone_model, subscriber_number):
+        """свойства смарфона """
+        self.phone_brand = phone_brand
+        self.phone_model = phone_model
+        self.subscriber_number = subscriber_number
