@@ -19,10 +19,7 @@ class User:
 person = User("Елена", "Mурзина")
 
 
-person.first_name = "Елена"
-person.last_name = "Мурзина"
 
-print(person)
 
     
 
